@@ -1,2 +1,3 @@
 # surfing
-I should really be putting this in a wiki or Notion or something
+
+A collection of surfing stuff for me to reference in the future.
