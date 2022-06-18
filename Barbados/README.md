@@ -1,3 +1,12 @@
+# General notes
+
+## Swell
+
+- For the most part, the **south coast** scoops up (and cleans up) the prevailing east/north-east/south-east swells – so has more consistent surf
+- The **west coast and north-west** spots _will only work_ if there is a non-trivial northly swell. These are more random than the prevailing easterly swells (apparently if there is a big dump of snow on the north-eastern seaboard of the US, that results in north swell in Barbados)
+  - The **north-west** spots (e.g. Maycocks) have a tendency to work more often because their location means they can catch north swells with a bit of east in them
+  - The **directly west** spots (e.g. Batts Rock) need a straight north swell or north-westly
+
 # Spots
 
 ## South Point
