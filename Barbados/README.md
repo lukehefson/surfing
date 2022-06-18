@@ -16,10 +16,10 @@
 - Entry
   - Both will require a little walk over the shallow reef until it's deep enough to paddle. There are sharp rocks and (mostly non-poisonous) urchins, so place your foot down slowly and carefully to avoid getting spiked
   - See [map](https://user-images.githubusercontent.com/1469659/172950596-65413cf5-981c-45b8-abc7-51bb304a0f09.png)
-  1. There is a **_tiny_** bit of beach to the left of the main entrance (looking out to sea)
+  1. Use the **_tiny_** bit of beach to the left of the main entrance (looking out to sea) in front of the first house and the second coconut palm along
   2. Or, walk further down the left to the bigger stretch of beach
 - Exit:
-  1. The tiny beach exit is in front of the middle coconut palm tree **BUT** you should _aim_ for the second house along when paddling/riding in and let the inside current pull you towards the tiny beach until it's too shallow to paddle
+  1. The tiny beach exit in front of the second coconut palm, **BUT** you should _aim_ for the second house along when paddling/riding in and let the inside current pull you towards the tiny beach until it's too shallow to paddle
   2. The bigger stretch of beach generally seems to be a trickier exit as the white water can be wilder here
 
 ## Freights Bay (aka Cotton House Bay)
