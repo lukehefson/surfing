@@ -13,6 +13,7 @@ Almost always some flavour of south-westerly
 ## Hot pipe
 - Beach break
 - Wind: South-facing, so usually cross-shore or onshore
+- Tide: Low-mid (~2.2m) is usually best. Mid (+2.7m) usually means you're sufing the inside. Low tides when it's tiny/offshore/long-period
 - Over 20mph cross-shore and you're better off going to [New beach](#new-beach)
 - Convenient parking
 - Can line up a bit, depends on what the sandbars are doing
@@ -20,6 +21,7 @@ Almost always some flavour of south-westerly
 ## New beach
 - Beach break
 - Wind: South-facing, so usually cross-shore or onshore
+- Tide: Low-mid (~2.2m) is usually best. Mid (+2.7m) usually means you're sufing the inside. Low tides when it's tiny/offshore/long-period
 - Generally ~1ft bigger than [Shoreham Beach Green](#shoreham-beach-green) or [Lancing](#lancing)
 - The harbour can provide a bit of shelter from westerly winds between up to 30mph
 - If wind is <20mph the [hot pipe](#hot-pipe) is ususally prefereable because of parking
@@ -28,6 +30,7 @@ Almost always some flavour of south-westerly
 ## Soldiers
 - Harbour wall break
 - Wind: Ususally protected from the wall – even in 50mph winds!
+- Tide: Generally, the lower the tide the better. Low spring tides even better. Even when it's big, getting near mid (2.5) will be too high
 - Shelter from the harbour means it only works in big storm conditions. "+4ft" on Magic Seaweed 
 - South-westerly wind is best, west is ok, southerly through to east is unsurfable
 - Weird wave. Long, but often just straight down the wall towards the beach. _Sometimes_ it can wall up with decent section further into the harbour
@@ -38,12 +41,14 @@ Almost always some flavour of south-westerly
 - Beach break
 - Usually ~1ft smaller than other local spots
 - Wind: South-facing, so usually cross-shore or onshore
+- Tide: Low-mid (~2.2m) is usually best. Mid (+2.7m) usually means you're sufing the inside. Low tides when it's tiny/offshore/long-period
 - Only worth it if conditions are okay and you want to avoid a crowd
 - Easy/free parking
 
 ## Lancing
 - Beach/reef break
 - Usually ~1ft smaller than other local spots
+- Tide: Low-mid (~2.2m) is usually best. Mid (+2.7m) usually means you're sufing the inside. Low tides when it's tiny/offshore/long-period
 - Wind: Beach is slightly south-east facing, so slightly more chance of offshore (compared to other local spots) when it's blowing westerly/north-westerly
 - There is a small "reef" made of large pebbles dumped in the sea in front of the bandstand/beach houses – makes for a fun wave ([ref](https://user-images.githubusercontent.com/1469659/215808430-bfdaadf8-0ec6-469e-a470-866f9981249d.jpeg))
 - Convenient parking
