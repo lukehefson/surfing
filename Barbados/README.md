@@ -1,5 +1,7 @@
 # General notes
 
+Look, just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot like Freights have scorpion fish/lion fish. – although you'd have to be very unlucky to step on one – more likey is that you'll scratch your foot on a hidden, sharp piece of coral.  
+
 ## Swell
 
 - For the most part, the **south coast** scoops up (and cleans up) the prevailing east/north-east/south-east swells – so has more consistent surf
