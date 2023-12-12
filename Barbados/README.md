@@ -1,6 +1,6 @@
 # General notes
 
-Look, just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot like Freights have scorpion fish/lion fish. – although you'd have to be very unlucky to step on one – more likey is that you'll scratch your foot on a hidden, sharp piece of coral.  
+Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot like Freights have scorpion fish/lion fish – although you'd have to be very unlucky to step on one – more likey is that you'll scratch your foot on a hidden, sharp piece of coral.  
 
 ## Swell
 
