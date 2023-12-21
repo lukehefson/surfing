@@ -52,3 +52,17 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 - Entry/exit: There is a bit of beach with a more gentle slope/less urchins, but aim wide along the deeper water channel going out/coming in to avoid getting caught in the inside (see [image](https://user-images.githubusercontent.com/1469659/174449204-9ffff129-b443-43d4-9396-b67db192c116.png))
 - When there is only _just_ enough north swell to make it doable, you can sit a little further inside and towards the north end – but you'll need to bail before the shallow reef
 - You can tell when a good set/wave is coming in by looking north – as they line up nicely out to sea before they eventually get to the takeoff point. Crappier waves without a good face don’t line up in the same way
+
+## Fryers Well (aka Hull)
+
+- [Google map](https://maps.app.goo.gl/7q2ESBn6zzQ1dZjh8)
+- Park up at the end of the road and then walk a little way down to the small bit of beach
+- Needs a northern swell
+- Long lulls between sets. When checking, make sure you wait for a set before writing it off as flat
+- If Maycocks is closing-out – try here
+- Best on a pushing mid-tide. Mid-tide on the drop will be more "sucky". Low tide can apparently be faster and barrelling but still managable (depending on the swell size)
+- Right-hander!!
+- Take off is relatively gentle. Usually needs a little bit of angle to get ahead of the wave (like South Point)
+- Walls up and peels very consitently for long rides
+- There is a section that looks like it's closing out, but can be made past with a floater/"check turn"/tap
+- Entry/Exit: Just straight out from the beach with a little angle towards the peak which is usually in front of the house to the left of the beach (looking back to the beach)
