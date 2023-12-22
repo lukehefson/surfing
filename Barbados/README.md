@@ -58,7 +58,9 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 - [Google map](https://maps.app.goo.gl/7q2ESBn6zzQ1dZjh8)
 - Park up at the end of the road and then walk a little way down to the small bit of beach
 - Needs a northern swell
+- Can't handle a ver big swell (overhead+) as it then starts closing out
 - Long lulls between sets. When checking, make sure you wait for a set before writing it off as flat
+- Look for the boats pointing northwards– that means there is north swell in the water
 - If Maycocks is closing-out – try here
 - Best on a pushing mid-tide. Mid-tide on the drop will be more "sucky". Low tide can apparently be faster and barrelling but still managable (depending on the swell size)
 - Right-hander!!
