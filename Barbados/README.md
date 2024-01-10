@@ -79,4 +79,4 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 - Not surfed it yet – just what I've heard:
   - Righthander!
     - Take off more in front of the boardwalk and then end up more in front of Accra Beach Hotel
-  - Needs similar swell conditions to Freight (east swell), but is less forgiving with the wind direction as it's facing south – so prefers between ENE, NE or NNE
+  - Needs similar swell conditions to Freight (east swell), but is less forgiving with the wind direction as it's facing south – so prefers between wind that is ENE, NE or NNE
