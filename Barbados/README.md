@@ -68,3 +68,15 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 - Walls up and peels very consitently for long rides
 - There is a section that looks like it's closing out, but can be made past with a floater/"check turn"/tap
 - Entry/Exit: Just straight out from the beach with a little angle towards the peak which is usually in front of the house to the left of the beach (looking back to the beach)
+
+## Pebbles
+
+- Not surfed it yet – just what I've heard:
+  - Needs east swell PLUS some form of NW swell. E.g. at least NNW ('North of NW')
+ 
+## Accra
+
+- Not surfed it yet – just what I've heard:
+  - Righthander!
+    - Take off more in front of the boardwalk and then end up more in front of Accra Beach Hotel
+  - Needs similar swell conditions to Freight (east swell), but is less forgiving with the wind direction as it's facing south – so prefers between ENE, NE or NNE
