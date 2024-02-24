@@ -80,3 +80,27 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
   - Righthander!
     - Take off more in front of the boardwalk and then end up more in front of Accra Beach Hotel
   - Needs similar swell conditions to Freight (east swell), but is less forgiving with the wind direction as it's facing south – so prefers wind that is between ENE, NE or NNE
+
+## Parlour
+
+- [Annotated map](https://github.com/lukehefson/node-app/assets/1469659/64662301-15d2-4845-ada8-af774e1a66a4)
+- Intermediates need very low (minus 10mph including gusts), crosshore at least (if not offshore) wind and not too big a swell
+- Lower-to-mid tides (when it's not big)
+- Park on the main road through Bathsheba near the pink chrurch or the little bridge
+- Entry
+  - From the beach out to sea: Get in between 'parlour rock' and the smaller boulder to the left of it – **there is a channel here**
+  - Paddle out in as shallow water as possible to avoid urchins
+  - Go straight out to see through the channel and then paddle left to the breaks once you've made it out back (NOT diagonally)
+- Exit
+  - Aim to the left (looking back at the beach) of parlour roack and/or the last smaller boulder on the beach in front of the pink church. Or, anywhere on the wider past of the beach. Just NOT back in front of parlour rock or to the right of it (looking back at the beach) where you got in
+- Three peaks going left to right when viewed from the beach
+  1. Left-most
+     - This was described to me as an ‘open water’ wave – so not consistently breaking in one direction (reef or point break), not peaks all over the place (beach break) and not quite an A-frame (consistently breaking left and right). So, you basically judge the direction at the last minute
+     - Going right is fatter/softer to get in– but longer and more rewarding
+     - Going left is easier to get in/steeper– but shorter/more critical
+     - Catching a long right can take you past parlour rock towards 'High Rock' (the next peak along in front of the highest boulder that juts out
+  2. Centre
+     - A-frame
+  3. Right-most
+     - Don't really know/didn't go near it as it's right over the far end of the bay in front of Bathsheba park
+
