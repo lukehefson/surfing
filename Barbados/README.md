@@ -83,7 +83,7 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 
 ## Parlour
 
-- [Annotated map](https://github.com/lukehefson/node-app/assets/1469659/64662301-15d2-4845-ada8-af774e1a66a4)
+- [Annotated map](https://github.com/lukehefson/surfing/assets/1469659/7379cc3e-8c6a-40ca-8eab-c02a0bf945f0)
 - Intermediates need very low (minus 10mph including gusts), crosshore at least (if not offshore) wind and not too big a swell
 - Lower-to-mid tides (when it's not big)
 - Park on the main road through Bathsheba near the pink chrurch or the little bridge
