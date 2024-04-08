@@ -79,6 +79,7 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 ## Accra (aka Sunset)
 
 - Righthander!
+  - Steep and fast
   - Take off more in front of the boardwalk and then end up more in front of Accra Beach Hotel
   - The reef is shallow here – so preferable on a not-low-to-mid tide
 - Needs similar swell conditions to Freight (east swell), but is less forgiving with the wind direction as it's facing south – so prefers wind that is between ENE, NE or NNE
