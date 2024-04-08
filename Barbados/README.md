@@ -72,15 +72,17 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 
 ## Pebbles
 
-- Not surfed it yet – just what I've heard:
-  - Needs east swell PLUS some form of NW swell. E.g. at least NNW ('North of NW')
+- Needs east swell PLUS some form of North swell – WNW ('West of NW') best, through to NNE ('North of NE') at worst
+- Predominatly Lefts but with the occasional Right
+- The smaller it is the more likely you'll need to surf closer to the Hilton end of the beach
  
-## Accra
+## Accra (aka Sunset)
 
-- Not surfed it yet – just what I've heard:
-  - Righthander!
-    - Take off more in front of the boardwalk and then end up more in front of Accra Beach Hotel
-  - Needs similar swell conditions to Freight (east swell), but is less forgiving with the wind direction as it's facing south – so prefers wind that is between ENE, NE or NNE
+- Righthander!
+  - Take off more in front of the boardwalk and then end up more in front of Accra Beach Hotel
+  - The reef is shallow here – so preferable on a not-low-to-mid tide
+- Needs similar swell conditions to Freight (east swell), but is less forgiving with the wind direction as it's facing south – so prefers wind that is between ENE, NE or NNE
+- When it is breaking it looks like [the area circled in red here](https://github.com/lukehefson/node-app/assets/1469659/ba00ae6e-466e-4c3d-96ce-b7f386d76b04) on [the Accra webcam](https://www.iwcpinc.com/cameras/accra/)
 
 ## Parlour
 
