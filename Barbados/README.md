@@ -73,7 +73,8 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 ## Pebbles
 
 - Needs east swell PLUS some form of North swell – WNW ('West of NW') best, through to NNE ('North of NE') at worst
-- Predominatly Lefts but with the occasional Right
+- If the prevailing eastly winds are gusty or strong (+15mph), it can easily become _too_ onshore and get peaky/hard-to-takeoff
+- Shifting beach break– mostly Lefts but with the occasional Rights
 - The smaller it is the more likely you'll need to surf closer to the Hilton end of the beach
  
 ## Accra (aka Sunset)
