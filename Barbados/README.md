@@ -12,7 +12,7 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 - The **west coast and north-west** spots _will only work_ if there is a non-trivial northly swell. These are more random than the prevailing easterly swells (apparently if there is a big dump of snow on the north-eastern seaboard of the US, that results in north swell in Barbados)
   - The **directly west** spots (e.g. Batts Rock) need a straight north swell or north-westly
   - The **north-west** spots (e.g. Maycocks) have a tendency to work more often because their location means they can catch north swells with a bit of east in them
-    - The [`Gibbs 1` webcam](https://www.iwcpinc.com/cameras/gibbes-1/) can be used as a proxy to tell if e.g. Maycocks it working on a minimum of (Surfline) 4ft + 12secs. If it's "sucking up" and looks [like this]([url](https://github.com/lukehefson/node-app/assets/1469659/289be21c-e3c0-4f3e-86d7-176b10b0d17d)), that's good. If it's not – it looks [like this](https://github.com/lukehefson/node-app/assets/1469659/8bf25e4a-a0a8-4713-b6d3-4fe16d810c0e). You might have to watch the webcam for 15/20mins though as sets can take that long to reoccur 
+    - The [`Gibbs 1` webcam](https://www.iwcpinc.com/cameras/gibbes-1/) can be used as a proxy to tell if e.g. Maycocks is working on a minimum of (Surfline) 4ft + 12secs. If it's "sucking up" and looks [like this]([url](https://github.com/lukehefson/node-app/assets/1469659/289be21c-e3c0-4f3e-86d7-176b10b0d17d)), that's good. If it's not – it looks [like this](https://github.com/lukehefson/node-app/assets/1469659/8bf25e4a-a0a8-4713-b6d3-4fe16d810c0e). You might have to watch the webcam for 15/20mins though as sets can take that long to reoccur 
 
 # Spots
 
