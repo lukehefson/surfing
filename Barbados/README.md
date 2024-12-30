@@ -94,6 +94,39 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 - There is a section that looks like it's closing out, but can be made past with a re-entry/tap off the white-water
 - Entry/Exit: Just straight out from the beach with a little angle towards the peak which is usually in front of the house to the left of the beach (looking back to the beach)
 
+### Batts Rock
+
+- More likely to work on smaller north swells (or north swells with a bit of east in them) than the majority of West Coast spots
+- Works on low and mid tides
+- A-frame which often has a 'wedge' in it
+  - The wedge can make it weird but also kind of fun
+  - The wedge will come from the north
+  - Surfing right on the a-frame will take you over a much shallower bit of reef juting out
+  - It's a relatively fat/slopey wave overall _unless_ you get a wedge – and then it can be suddenly steep/slabby
+- Entry/exit to the right (looking out to sea), close to the buoys
+  - When exiting, don't try and catch a wave right to shore as the beach can be quite steep – paddle in instead
+
+### Paradise Beach [Observation only – yet to surf it)
+
+- Park at Batts Rock and left down the beach (past La Cabane and beyond) to get to it
+- When Batts is too big apparently Paradise Beach can work
+  - I observed it on a morning when Batts was chest-to-shoulder high on sets, 12secs, straight north swell (and busy!) and it _still_ didn't seem to be breaking 
+- There are definitely some very shallow sections or rock/reef there – so not sure how hazardous those are
+- Don't yet know how to enter/exit or how it breaks
+
+### Sandy Lane [Observation only – yet to surf it)
+
+- More likely to work on smaller north swells (or north swells with a bit of east in them) than the majority of West Coast spots
+- Gets very busy with local rippers when it's on
+- It's a long walk
+  - Park by One Sandy Lane, walk down the cut-through ("gap") to the beach and walk right j for ~7mins along the beach until you get to the beach in front of the Sandy Lane Hotel
+  - I walked at 0.3m low tide and it still involved getting my feet a little wet – so I guess it's just a long, long paddle if the tide is mid or higher!
+- Looks like the entry/exit is to the left of the hotel beach (looking out to sea) – at the point that the wave ends on the inside
+
+### Jordans [Observation only – yet to surf it)
+
+- I observed it on a morning when Batts was chest-to-shoulder high on sets, 12secs, straight north swell (and busy!) and it didn't seem to be breaking 
+
 ## East Coast
 
 ### Parlour
