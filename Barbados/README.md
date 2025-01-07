@@ -87,7 +87,7 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 - Long lulls between sets. When checking, make sure you wait for a set before writing it off as flat
 - Look for the boats pointing northwards– that means there is north swell in the water
 - If Maycocks is closing-out – try here
-- Best on a pushing mid-tide. Mid-tide on the drop will be more "sucky". Low tide can apparently be faster and barrelling but still managable (depending on the swell size)
+- Best on a pushing mid-tide. Mid-tide on the drop will be more "sucky". Low tide can be faster with a barrelling end-section but still managable (depending on the swell size)
 - Right-hander
 - Take off is relatively gentle. Usually needs a little bit of angle to get ahead of the wave (like South Point)
 - Walls up and peels very consitently for long rides
