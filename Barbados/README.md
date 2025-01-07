@@ -59,7 +59,7 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 
 ### Pebbles
 
-- Needs east swell PLUS some form of north swell (west of NW best, through to north of NE at worst)
+- Needs east swell PLUS some form of north swell (the more easterly the north swell the sronger it needs to be)
 - If the prevailing eastly winds are gusty or strong (+15mph), it can easily become _too_ onshore and get peaky/hard-to-takeoff
 - Shifting beach break– mostly lefts but with the occasional rights
 - The smaller it is the more likely you'll need to surf closer to the Hilton end of the beach
@@ -106,7 +106,7 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 - Entry/exit to the right (looking out to sea), close to the buoys
   - When exiting, don't try and catch a wave right to shore as the beach can be quite steep – paddle in instead
 
-### Paradise Beach [Observation only – yet to surf it)
+### Paradise Beach [Observation only]
 
 - Park at Batts Rock and left down the beach (past La Cabane and beyond) to get to it
 - When Batts is too big apparently Paradise Beach can work
@@ -114,7 +114,7 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 - There are definitely some very shallow sections or rock/reef there – so not sure how hazardous those are
 - Don't yet know how to enter/exit or how it breaks
 
-### Sandy Lane [Observation only – yet to surf it)
+### Sandy Lane [Observation only]
 
 - More likely to work on smaller north swells (or north swells with a bit of east in them) than the majority of West Coast spots
 - Gets very busy with local rippers when it's on
@@ -123,7 +123,7 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
   - I walked at 0.3m low tide and it still involved getting my feet a little wet – so I guess it's just a long, long paddle if the tide is mid or higher!
 - Looks like the entry/exit is to the left of the hotel beach (looking out to sea) – at the point that the wave ends on the inside
 
-### Jordans [Observation only – yet to surf it)
+### Jordans [Observation only]
 
 - I observed it on a morning when Batts was chest-to-shoulder high on sets, 12secs, straight north swell (and busy!) and it didn't seem to be breaking 
 
