@@ -78,6 +78,22 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 - When there is only _just_ enough north swell to make it doable, you can sit a little further inside and towards the north end – but you'll need to bail before the shallow reef
 - You can tell when a good set/wave is coming in by looking north – as they line up nicely out to sea before they eventually get to the takeoff point. Crappier waves without a good face don’t line up in the same way
 
+<!-- Redacted section as this is a secret spot
+
+### Base
+
+- Park by the two house and walk down the trail to the beach
+- Needs a northern swell, and would be more likely to work even with some more East in it compared to the spot nearest it
+- Mid-to-low tide
+- Reef break
+- Mostly Rights
+- The current (especially on the inside) pull hard towards the South – surfing here can involve a workout
+- Entry: Hug the groyne on your right as much as you can and time between sets – then paddle past the groyne diagonally left
+- Lineup/wave type: It can peak in a few different places and be wary of the current. Oftentimes I found myself using either the big tree as a marker or to the right of the big tree. A straight takeoff with big bottom turn seems to be the order of the day. Reforms aplenty
+- Exit: DON'T TRY TO CATCH A WAVE IN (unless it's a Left more on the inside) – better to paddle back over to the lineup after your last wave and then paddle diagonally left back as close to the inside of the groyne as you can. Exiting where you entered 
+
+-->
+
 ### Fryers Well (aka Hull)
 
 - [Google map](https://maps.app.goo.gl/7q2ESBn6zzQ1dZjh8)
