@@ -82,12 +82,12 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 
 ### Base
 
-- Park by the two house and walk down the trail to the beach
+- Park by the two houses and walk down through the jungle/cliff-side trail to the beach nearest the groyne ([map](https://github.com/user-attachments/assets/fa93dae3-bfa0-460f-bfa5-46d22afea24f))
 - Needs a northern swell, and would be more likely to work even with some more East in it compared to the spot nearest it
 - Mid-to-low tide
 - Reef break
 - Mostly Rights
-- The current (especially on the inside) pull hard towards the South – surfing here can involve a workout
+- The current pull hard towards the South (especially on the inside) – surfing here can involve a workout
 - Entry: Hug the groyne on your right as much as you can and time between sets – then paddle past the groyne diagonally left
 - Lineup/wave type: It can peak in a few different places and be wary of the current. Oftentimes I found myself using either the big tree as a marker or to the right of the big tree. A straight takeoff with big bottom turn seems to be the order of the day. Reforms aplenty
 - Exit: DON'T TRY TO CATCH A WAVE IN (unless it's a Left more on the inside) – better to paddle back over to the lineup after your last wave and then paddle diagonally left back as close to the inside of the groyne as you can. Exiting where you entered 
