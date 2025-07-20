@@ -1,12 +1,12 @@
-# General notes
-Don't fully trust the wind report on Magic Seaweed. Check BBC weather/mer office. It always seems to be a good +5mph _less_ than MSW
+# Wind
 
-## Wind
+- It always seems to be a good +5mph _less_ than surline reckons
 - Usually from the west, south-west or south during storm conditions
 - Offshore days (that still have discernible swell!) only usually happen on the last day or two after storm conditions
 
-## Swell
-Almost always some flavour of south-westerly
+# Swell
+
+Almost always some flavour of south-westerly.
 
 # Spots
 
