@@ -31,7 +31,7 @@ Almost always some flavour of south-westerly.
 - Harbour wall break
 - Wind: Ususally protected from the wall – even in 50mph winds!
 - Tide: Generally, the lower the tide the better. Low spring tides even better. Even when it's big, getting near mid (2.5m) will be too high
-- Shelter from the harbour means it only works in big storm conditions. "+4ft" on Magic Seaweed 
+- Shelter from the harbour means it only works in big storm conditions. "+4ft" on Surfline 
 - South-westerly wind is best, west is ok, southerly through to east is unsurfable
 - Weird wave. Long, but often just straight down the wall towards the beach. _Sometimes_ it can wall up with decent section further into the harbour
 - The wall is sketchy as fuck – not for the faint-hearted
