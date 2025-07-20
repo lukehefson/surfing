@@ -15,7 +15,7 @@ Almost always some flavour of south-westerly.
 - Wind: South-facing, so usually cross-shore or onshore
 - Tide: I prefer low-mid (~2.2m). Mid (+2.7m) usually means you're sufing the inside but this is also what a lot of locals do. Definitely low tides when it's tiny/offshore/long-period
 - Over 20mph cross-shore and you're better off going to [New beach](#new-beach)
-- Convenient parking at Carats cafe carpark
+- Convenient parking right in front
 - Can line up a bit, depends on what the sandbars are doing
 
 ## New beach
