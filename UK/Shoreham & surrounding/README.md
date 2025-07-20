@@ -41,14 +41,14 @@ Almost always some flavour of south-westerly.
 - Beach break
 - Usually ~1ft smaller than other local spots
 - Wind: South-facing, so usually cross-shore or onshore
-- Tide: Low-mid (~2.2m) is usually best. Mid (+2.7m) usually means you're sufing the inside. Low tides when it's tiny/offshore/long-period
+- Tide: Low-mid (~2.2m) to mid (+2.7m). Definitely low tides when it's tiny/offshore/long-period
 - Only worth it if conditions are okay and you want to avoid a crowd
 - Easy/free parking on the road
 
 ## Lancing
 - Beach/reef break
 - Usually ~1ft smaller than other local spots
-- Tide: Low-mid (~2.2m) is usually best. Mid (+2.7m) usually means you're sufing the inside. Low tides when it's tiny/offshore/long-period
+- Tide: Low-mid (~2.2m) to mid (+2.7m). Definitely low tides when it's tiny/offshore/long-period
 - Wind: Beach is slightly south-east facing, so slightly more chance of offshore (compared to other local spots) when it's blowing westerly/north-westerly
 - There is a small "reef" made of large pebbles dumped in the sea in front of the bandstand/beach houses – makes for a fun wave ([ref](https://user-images.githubusercontent.com/1469659/215808430-bfdaadf8-0ec6-469e-a470-866f9981249d.jpeg))
 - Convenient paid parking at Perch cafe
