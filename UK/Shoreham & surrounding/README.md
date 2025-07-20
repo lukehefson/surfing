@@ -13,7 +13,7 @@ Almost always some flavour of south-westerly.
 ## Hot pipe
 - Beach break
 - Wind: South-facing, so usually cross-shore or onshore
-- Tide: Low-mid (~2.2m) is usually best. Mid (+2.7m) usually means you're sufing the inside. Low tides when it's tiny/offshore/long-period
+- Tide: I prefer low-mid (~2.2m). Mid (+2.7m) usually means you're sufing the inside but this is also what a lot of locals do. Definitely low tides when it's tiny/offshore/long-period
 - Over 20mph cross-shore and you're better off going to [New beach](#new-beach)
 - Convenient parking
 - Can line up a bit, depends on what the sandbars are doing
@@ -21,7 +21,7 @@ Almost always some flavour of south-westerly.
 ## New beach
 - Beach break
 - Wind: South-facing, so usually cross-shore or onshore
-- Tide: Low-mid (~2.2m) is usually best. Mid (+2.7m) usually means you're sufing the inside. Low tides when it's tiny/offshore/long-period
+- Tide: I prefer low-mid (~2.2m). Mid (+2.7m) usually means you're sufing the inside but this is also what a lot of locals do. Definitely low tides when it's tiny/offshore/long-period
 - Generally ~1ft bigger than [Shoreham Beach Green](#shoreham-beach-green) or [Lancing](#lancing)
 - The harbour can provide a bit of shelter from westerly winds between up to 30mph
 - If wind is <20mph the [hot pipe](#hot-pipe) is ususally prefereable because of parking
