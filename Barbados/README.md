@@ -110,6 +110,17 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 - There is a section that looks like it's closing out, but can be made past with a re-entry/tap off the white-water
 - Entry/Exit: Just straight out from the beach with a little angle towards the peak which is usually in front of the house to the left of the beach (looking back to the beach)
 
+### Sandy Lane
+
+- More likely to work on smaller north swells (or north swells with a bit of east in them) than the majority of West Coast spots
+- Gets very busy with local rippers when it's on
+- It's a long walk
+  - Park by One Sandy Lane, walk down the cut-through ("gap") to the beach and walk right for ~7mins along the beach until you get to the beach in front of the Sandy Lane Hotel. When there is no sand you might have to do some paddling. Watch out for boils/big rocks just under the surface
+- On smaller days the peak is perpendicular to the corner of where the rocks meet the beach. On bigger days it swings out into the middle of the bay more
+- It's a fast wave which properly walls-up — much more of a shortboard wave
+- It's a Left, but it bends into the bay in such a way that you'd be mistaken for thinking you should go right — and if you're in the line-up watching someone take a wave it almost looks as though they are heading straight to the beach — but they are in fact surfing left
+- Not much room on the peak for a crowd and you have to be precise, as you can't take off from the shoulder 
+
 ### Batts Rock
 
 - More likely to work on smaller north swells (or north swells with a bit of east in them) than the majority of West Coast spots
@@ -129,15 +140,6 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
   - I observed it on a morning when Batts was chest-to-shoulder high on sets, 12secs, straight north swell (and busy!) and it _still_ didn't seem to be breaking 
 - There are definitely some very shallow sections or rock/reef there – so not sure how hazardous those are
 - Don't yet know how to enter/exit or how it breaks
-
-### Sandy Lane [Observation only]
-
-- More likely to work on smaller north swells (or north swells with a bit of east in them) than the majority of West Coast spots
-- Gets very busy with local rippers when it's on
-- It's a long walk
-  - Park by One Sandy Lane, walk down the cut-through ("gap") to the beach and walk right j for ~7mins along the beach until you get to the beach in front of the Sandy Lane Hotel
-  - I walked at 0.3m low tide and it still involved getting my feet a little wet – so I guess it's just a long, long paddle if the tide is mid or higher!
-- Looks like the entry/exit is to the left of the hotel beach (looking out to sea) – at the point that the wave ends on the inside
 
 ### Jordans [Observation only]
 
