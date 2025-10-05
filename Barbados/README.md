@@ -2,7 +2,7 @@
 
 ## Hazards
 
-Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spots like Freights have [scorpion fish](https://en.wikipedia.org/wiki/Scorpaena_plumieri) and lion fish – although you'd have to be very unlucky to step on one – it's more likey that you'll scratch your foot on a hidden, sharp piece of coral or a (non-poisonous) [rock-boring urchin](https://en.wikipedia.org/wiki/Echinometra_lucunter).  
+Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spots like Freights have [scorpion fish](https://en.wikipedia.org/wiki/Scorpaena_plumieri) and lion fish – although you'd have to be very unlucky to step on one – it's more likely that you'll scratch your foot on a hidden, sharp piece of coral or a (non-poisonous) [rock-boring urchin](https://en.wikipedia.org/wiki/Echinometra_lucunter).  
 
 ## Swell
 
@@ -59,8 +59,8 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 
 ### Pebbles
 
-- Needs east swell PLUS some form of north swell (the more easterly the north swell the sronger it needs to be)
-- If the prevailing eastly winds are gusty or strong (+15mph), it can easily become _too_ onshore and get peaky/hard-to-takeoff
+- Needs east swell PLUS some form of north swell (the more easterly the north swell the stronger it needs to be)
+- If the prevailing easterly winds are gusty or strong (+15mph), it can easily become _too_ onshore and get peaky/hard-to-takeoff
 - Shifting beach break– mostly lefts but with the occasional rights
 - The smaller it is the more likely you'll need to surf closer to the Hilton end of the beach
 
@@ -103,10 +103,10 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 - Long lulls between sets. When checking, make sure you wait for a set before writing it off as flat
 - Look for the boats pointing northwards– that means there is north swell in the water
 - If Maycocks is closing-out – try here
-- Best on a pushing mid-tide. Mid-tide on the drop will be more "sucky". Low tide can be faster with a barrelling end-section but still managable (depending on the swell size)
+- Best on a pushing mid-tide. Mid-tide on the drop will be more "sucky". Low tide can be faster with a barrelling end-section but still manageable (depending on the swell size)
 - Right-hander
 - Take off is relatively gentle. Usually needs a little bit of angle to get ahead of the wave (like South Point)
-- Walls up and peels very consitently for long rides
+- Walls up and peels very consistently for long rides
 - There is a section that looks like it's closing out, but can be made past with a re-entry/tap off the white-water
 - Entry/Exit: Just straight out from the beach with a little angle towards the peak which is usually in front of the house to the left of the beach (looking back to the beach)
 
@@ -147,18 +147,31 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 
 ## East Coast
 
+### Soup Bowl
+
+_Warning: This is my interpretation of surfing soup on almost exclusively "small" (waist to shoulder high) low-wind days. Which is not the norm for this break. I may detail things below that could be hazardous on a bigger/average day!_
+
+- Entry somewhere between the river-mouth and in front of the shower
+- There is often a strong longshore current on entry — especially on low tides
+- Stay in the rip/channel out to sea, paddling slightly towards the peak on the right (looking to sea), but stay in the channel to avoid rogue, big sets
+- On smaller days there are two peaks: The main, south one and a north peak nearer the channel that can crop up. The later is my preference otherwise you have to try and make it past that south peak section if you go from the main peak
+- Taking off at the peak needs to be precise as the shoulder is usually too soft — this usually requires a bottom turn and not an angled take-off
+- Look out for big sets and you can race to the channel to avoid them if needs be
+- Missing your wave at the peak or messing it up and ending up inside of the peak SUCKS — cos paddling across to the channel means your likely in someone else's line and the power of soup means even a thigh high breaking wave will work you. I have no idea how pros deal with massive white water there
+- Exit by aiming for the river mouth and not directly into the beach
+
 ### Parlour
 
 - [Annotated map](https://github.com/lukehefson/surfing/assets/1469659/7379cc3e-8c6a-40ca-8eab-c02a0bf945f0)
-- For Intermediates – the wind needs to be very low (minus 10mph including gusts), crosshore at least (if not offshore) and not too big a swell
+- For Intermediates – the wind needs to be very low (minus 10mph including gusts), cross-shore at least (if not offshore) and not too big a swell
 - Lower-to-mid tides (when it's not big)
-- Park on the main road through Bathsheba near the pink chrurch or the little bridge
+- Park on the main road through Bathsheba near the pink church or the little bridge
 - Entry
   - From the beach out to sea: Get in between 'parlour rock' and the smaller boulder to the left of it – **there is a channel here**
   - Paddle out in as shallow water as possible to avoid urchins
   - Go straight out to see through the channel and then paddle left to the breaks once you've made it out back (NOT diagonally)
 - Exit
-  - Aim to the left (looking back at the beach) of parlour roack and/or the last smaller boulder on the beach in front of the pink church. Or, anywhere on the wider past of the beach. Just NOT back in front of parlour rock or to the right of it (looking back at the beach) where you got in
+  - Aim to the left (looking back at the beach) of parlour rock and/or the last smaller boulder on the beach in front of the pink church. Or, anywhere on the wider past of the beach. Just NOT back in front of parlour rock or to the right of it (looking back at the beach) where you got in
 - Three peaks going left to right when viewed from the beach:
   1. Left-most
       - This was described to me as an ‘open water’ wave – so not consistently breaking in one direction (reef or point break), not peaks all over the place (beach break) and not quite an A-frame (consistently breaking left and right). So, you basically judge the direction at the last minute
