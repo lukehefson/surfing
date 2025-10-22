@@ -143,7 +143,8 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 
 ### Jordans [Observation only]
 
-- I observed it on a morning when Batts was chest-to-shoulder high on sets, 12secs, straight north swell (and busy!) and it didn't seem to be breaking 
+- I observed it on a morning when Batts was chest-to-shoulder high on sets, 12secs, straight north swell (and busy!) and Jordans didn't even seem to be breaking!
+- I heard reports of it working on a day when there was more westerly direction in the north swell at an angle of 350° (10° west of true-north!) and ~5ft, 13secs on Surfline.
 
 ## East Coast
 
