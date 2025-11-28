@@ -41,9 +41,9 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 
 ### Brandons (aka Brandens, aka Drill Hall Beach)
 - [Google map](https://goo.gl/maps/SmbYjJoJa9hX4wyU7)
-- Depending on the swell size/direction can work from low to high tide
-- Can be bigger than other south coast spots on the same easterly/south easterly swell
-- Somewhat unfriendly-to-non-locals vibe compared to other south coast spots
+- Depending on the swell size/direction can work on all tides. Although going right on a low tide will take you very shallow
+- Is usually bigger than other south coast spots on the same easterly/south easterly swell
+- Can have a unfriendly-to-non-locals vibe compared to other south coast spots
 - Reef break
 - Mostly left, although there is often a right you can catch if you sit on the eastern side of the main peak
 - Entry/Exit: Further down the beach towards the Hilton and then a (long-ish) paddle wide up and around to the peak
