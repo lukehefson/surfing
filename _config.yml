@@ -1,0 +1,43 @@
+# Jekyll configuration for GitHub README Theme
+
+# GitHub Pages base URL (repo name for project pages with custom domain)
+baseurl: ""
+url: "https://lukehefson.com"
+
+# Repository information for edit links
+repo_owner: "lukehefson"
+repo_name: "surfing"
+repo_branch: "main"
+
+# Jekyll settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  syntax_highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-octicons
+  - jemoji
+
+# Include generated files - Jekyll will process .md files in _generated
+include:
+  - _generated
+
+# Exclude files from source
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - scripts
+  - .git
+  - .gitignore
+  - README-2.md
+  - TESTING_GUIDE.md
+  - PLAN.md
+  - copy-to-repo.sh
+  - README.md  # Exclude original README since we use generated index.md
+  - "Name of a nested directory/README.md"  # Exclude actual README, use generated index.md
+

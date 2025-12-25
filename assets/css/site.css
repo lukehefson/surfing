@@ -1,0 +1,400 @@
+/* Site-specific styles for GitHub README Theme */
+
+:root {
+  --sidebar-width: 320px;
+  --sidebar-collapsed-width: 0px;
+  --header-height: 60px;
+  --spacing-unit: 16px;
+  --border-color: #d0d7de;
+  --bg-color: #ffffff;
+  --text-color: #24292f;
+  --link-color: #0969da;
+  --hover-bg: #f6f8fa;
+  --active-bg: #0969da;
+  --active-text: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  line-height: 1.5;
+}
+
+.site-container {
+  display: grid;
+  grid-template-columns: var(--sidebar-width) 1fr;
+  min-height: 100vh;
+  transition: grid-template-columns 0.2s ease;
+}
+
+.site-container.sidebar-collapsed {
+  grid-template-columns: var(--sidebar-collapsed-width) 1fr;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  border-right: 1px solid var(--border-color);
+  background-color: var(--bg-color);
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.site-container.sidebar-collapsed .sidebar {
+  transform: translateX(-100%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: var(--spacing-unit);
+  height: var(--header-height);
+}
+
+.sidebar-header h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  flex: 1;
+}
+
+.sidebar-toggle {
+  background: #e7ebef;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  color: #5b636d;
+  border-radius: 6px;
+  transition: background-color 0.2s, color 0.2s;
+  position: relative;
+  top: 2px;
+}
+
+.sidebar-toggle svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.sidebar-toggle:hover {
+  background-color: #f6f8fa;
+  color: #5b636d;
+}
+
+.sidebar-nav {
+  padding: var(--spacing-unit);
+  padding-left: calc(var(--spacing-unit) + 10px);
+}
+
+.nav-tree {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-item > a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  margin: 1px 0;
+  text-decoration: none;
+  color: var(--text-color);
+  border-radius: 6px;
+  transition: background-color 0.15s ease;
+  font-size: 14px;
+  position: relative;
+}
+
+/* Indent content within boxes based on nesting level - boxes always align left */
+.nav-tree > .nav-item > a {
+  padding-left: 8px;
+}
+
+/* Each nested level adds 8px to the left padding of the content */
+.nav-children .nav-item > a {
+  padding-left: calc(8px + var(--nesting-level, 0) * 8px);
+}
+
+/* Set nesting level via CSS custom property for dynamic calculation */
+.nav-tree > .nav-item > .nav-children > .nav-item > a {
+  --nesting-level: 1;
+  padding-left: 16px;
+}
+
+.nav-tree > .nav-item > .nav-children > .nav-item > .nav-children > .nav-item > a {
+  --nesting-level: 2;
+  padding-left: 24px;
+}
+
+.nav-tree > .nav-item > .nav-children > .nav-item > .nav-children > .nav-item > .nav-children > .nav-item > a {
+  --nesting-level: 3;
+  padding-left: 32px;
+}
+
+/* Continue pattern for deeper nesting - add more rules as needed */
+.nav-tree > .nav-item > .nav-children > .nav-item > .nav-children > .nav-item > .nav-children > .nav-item > .nav-children > .nav-item > a {
+  --nesting-level: 4;
+  padding-left: 40px;
+}
+.nav-item > a:hover {
+  background-color: var(--hover-bg);
+}
+
+.nav-item.active > a {
+  background-color: #f6f8fa;
+}
+
+.nav-item.active > a::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5px;
+  height: 25px;
+  background-color: var(--active-bg);
+  border-radius: 3px;
+}
+
+.nav-chevron {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  color: #656d76;
+}
+
+.nav-chevron svg {
+  display: block;
+}
+
+.nav-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  color: #6bacf9;
+}
+
+.nav-icon svg {
+  fill: #6bacf9;
+  width: 16px;
+  height: 16px;
+}
+
+.nav-text {
+  flex: 1;
+}
+
+/* Hide all nav children by default to prevent flash before JS loads */
+.nav-children {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none !important;
+}
+
+.nav-item.expanded > .nav-children {
+  display: block !important;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.content-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-unit);
+  border-bottom: 1px solid var(--border-color);
+  height: var(--header-height);
+  background-color: var(--bg-color);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  gap: var(--spacing-unit);
+}
+
+.sidebar-toggle-mobile {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  color: #5b636d;
+  border-radius: 6px;
+  transition: background-color 0.2s, color 0.2s;
+  flex-shrink: 0;
+  position: relative;
+  top: 2px;
+}
+
+.sidebar-toggle-mobile svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.sidebar-toggle-mobile:hover {
+  background-color: #f6f8fa;
+  color: #5b636d;
+}
+
+.site-container.sidebar-collapsed .sidebar-toggle-mobile {
+  display: flex !important;
+}
+
+.breadcrumb-container {
+  flex: 1;
+}
+
+.breadcrumb {
+  font-size: 16px;
+}
+
+.breadcrumb ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.breadcrumb li {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb-separator {
+  margin: 0 8px;
+  color: #656d76;
+}
+
+.breadcrumb-current {
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.edit-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  color: #5b636d;
+  border-radius: 6px;
+  transition: background-color 0.2s, color 0.2s;
+  position: relative;
+  top: 2px;
+  text-decoration: none;
+}
+
+.edit-button svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.edit-button:hover {
+  background-color: #f6f8fa;
+  color: #5b636d;
+}
+
+.markdown-body {
+  padding: 42px calc(var(--spacing-unit) * 2) var(--spacing-unit);
+  max-width: 1012px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.markdown-body .footnote {
+  text-decoration: underline;
+}
+
+.markdown-body .footnote::before {
+  content: '[';
+}
+
+.markdown-body .footnote::after {
+  content: ']';
+}
+
+@media (max-width: 768px) {
+  .site-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .sidebar {
+    display: none;
+  }
+  
+  .sidebar-toggle-mobile {
+    display: none;
+  }
+  
+  .markdown-body {
+    padding: var(--spacing-unit);
+  }
+  
+  .content-header {
+    flex-wrap: wrap;
+    min-height: var(--header-height);
+    height: auto;
+  }
+}

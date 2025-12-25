@@ -1,0 +1,24 @@
+{
+  "name": "github-readme-theme",
+  "version": "1.0.0",
+  "description": "A Jekyll theme for rendering GitHub README files as a clean documentation site",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-readme-site.mjs",
+    "build": "npm run generate && bundle exec jekyll build",
+    "serve": "npm run generate && bundle exec jekyll serve"
+  },
+  "keywords": [
+    "jekyll",
+    "theme",
+    "github",
+    "readme",
+    "documentation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+

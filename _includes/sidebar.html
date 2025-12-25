@@ -1,0 +1,27 @@
+{% if site.data.nav %}
+  <ul class="nav-tree">
+    {% if site.data.nav.root %}
+      <li class="nav-item {% if page.page_url == site.data.nav.root.url %}active{% endif %}">
+        <a href="{{ site.data.nav.root.url | relative_url }}">
+          <span class="nav-chevron">
+            <svg class="chevron-down" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <span class="nav-icon">
+            {% octicon file-directory-open-fill height:16 %}
+          </span>
+          <span class="nav-text">{{ site.data.nav.root.title }}</span>
+        </a>
+        {% if site.data.nav.children.size > 0 %}
+          <ul class="nav-children">
+            {% for child in site.data.nav.children %}
+              {% include nav_item.html item=child %}
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endif %}
+  </ul>
+{% endif %}
+

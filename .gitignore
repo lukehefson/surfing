@@ -1,0 +1,34 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Generated files
+_generated/
+_data/nav.json
+
+# Generated index.md files (created by generator script)
+# Keep root index.md if you want, but generated ones in subdirectories should be ignored
+# Uncomment the next line if you want to ignore ALL index.md files:
+# index.md
+
+# Dependencies
+node_modules/
+vendor/
+.bundle/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
