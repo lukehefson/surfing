@@ -35,10 +35,17 @@ jobs:
           bundler-cache: true
       
       - name: Install npm dependencies
-        run: npm ci
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install
+          fi
       
       - name: Install Ruby dependencies
-        run: bundle install
+        run: |
+          bundle lock --add-platform x86_64-linux || true
+          bundle install
       
       - name: Generate README site
         run: |
@@ -66,4 +73,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
