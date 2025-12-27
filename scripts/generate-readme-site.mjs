@@ -180,8 +180,78 @@ function generatePage(readme, config) {
   return yaml + content;
 }
 
+// Generate placeholder page for container directories
+function generateContainerPage(containerPath, config) {
+  const pageUrl = generatePageUrl(containerPath);
+  const breadcrumb = generateBreadcrumb(containerPath, config.repo_name);
+  
+  // Extract title from directory name
+  const segments = containerPath.split(path.sep);
+  const title = segments[segments.length - 1];
+  
+  const frontMatter = {
+    layout: 'default',
+    readme_path: '',
+    page_url: pageUrl,
+    breadcrumb: breadcrumb,
+    edit_url: '',
+    title: title,
+    is_container: true
+  };
+  
+  const placeholderContent = `This directory is a container for other pages and has no content of its own.`;
+  
+  // Generate YAML front matter
+  const yaml = `---\n` +
+    `layout: ${frontMatter.layout}\n` +
+    `readme_path: ""\n` +
+    `page_url: "${frontMatter.page_url}"\n` +
+    `edit_url: ""\n` +
+    `title: "${frontMatter.title}"\n` +
+    `is_container: true\n` +
+    `breadcrumb:\n` +
+    frontMatter.breadcrumb.map(crumb => 
+      `  - title: "${crumb.title}"\n    url: "${crumb.url}"`
+    ).join('\n') +
+    `\n---\n\n` +
+    placeholderContent;
+  
+  return yaml;
+}
+
+// Find container directories (directories without READMEs that contain nested dirs with READMEs)
+function findContainerDirectories(readmes) {
+  const readmePaths = new Set();
+  readmes.forEach(r => {
+    if (!r.isRoot) {
+      readmePaths.add(r.relativePath);
+    }
+  });
+  
+  const containerPaths = new Set();
+  
+  // For each README path, check all parent directories
+  for (const readmePath of readmePaths) {
+    const segments = readmePath.split(path.sep);
+    // Check each parent directory
+    for (let i = 1; i < segments.length; i++) {
+      const parentPath = segments.slice(0, i).join(path.sep);
+      // If parent doesn't have a README, it's a container
+      if (!readmePaths.has(parentPath)) {
+        containerPaths.add(parentPath);
+      }
+    }
+  }
+  
+  return Array.from(containerPaths).map(containerPath => ({
+    relativePath: containerPath,
+    isRoot: false,
+    isContainer: true
+  }));
+}
+
 // Build navigation tree
-function buildNavTree(readmes, repoName) {
+function buildNavTree(readmes, containers, repoName) {
   const tree = {
     root: null,
     children: []
@@ -196,7 +266,7 @@ function buildNavTree(readmes, repoName) {
     };
   }
   
-  // Build a set of all paths that have READMEs
+  // Build a set of all paths that have READMEs or are containers
   const readmePaths = new Set();
   readmes.forEach(r => {
     if (!r.isRoot) {
@@ -204,39 +274,43 @@ function buildNavTree(readmes, repoName) {
     }
   });
   
-  // Helper function to find the closest parent path that has a README
-  function findParentWithReadme(dirPath) {
+  const containerPaths = new Set();
+  containers.forEach(c => {
+    containerPaths.add(c.relativePath);
+  });
+  
+  // Combined set of all valid paths (READMEs and containers)
+  const allValidPaths = new Set([...readmePaths, ...containerPaths]);
+  
+  // Helper function to find the closest parent path that has a README or is a container
+  function findParentPath(dirPath) {
     if (!dirPath || dirPath === '.') return null;
     const segments = dirPath.split(path.sep);
     for (let i = segments.length - 1; i > 0; i--) {
       const parentPath = segments.slice(0, i).join(path.sep);
-      if (readmePaths.has(parentPath)) {
+      if (allValidPaths.has(parentPath)) {
         return parentPath;
       }
     }
     return null;
   }
   
-  // Build tree structure - only include directories that have READMEs
+  // Build tree structure - include directories that have READMEs or are containers
   const nodeMap = new Map();
   
-  // Sort readmes by path for stable ordering
-  const sortedReadmes = readmes
-    .filter(r => !r.isRoot)
-    .sort((a, b) => a.relativePath.localeCompare(b.relativePath));
+  // Combine readmes and containers, sort by path
+  const allItems = [
+    ...readmes.filter(r => !r.isRoot),
+    ...containers
+  ].sort((a, b) => a.relativePath.localeCompare(b.relativePath));
   
-  for (const readme of sortedReadmes) {
-    const pageUrl = generatePageUrl(readme.relativePath);
-    const segments = readme.relativePath.split(path.sep);
+  for (const item of allItems) {
+    const pageUrl = generatePageUrl(item.relativePath);
+    const segments = item.relativePath.split(path.sep);
     const segment = segments[segments.length - 1]; // Last segment is the directory name
     
-    // Only create nodes for paths that have READMEs
-    if (!readmePaths.has(readme.relativePath)) {
-      continue;
-    }
-    
     // Find or create node
-    let node = nodeMap.get(readme.relativePath);
+    let node = nodeMap.get(item.relativePath);
     
     if (!node) {
       node = {
@@ -244,10 +318,10 @@ function buildNavTree(readmes, repoName) {
         url: pageUrl,
         children: []
       };
-      nodeMap.set(readme.relativePath, node);
+      nodeMap.set(item.relativePath, node);
       
       // Find parent and add to appropriate level
-      const parentPath = findParentWithReadme(readme.relativePath);
+      const parentPath = findParentPath(item.relativePath);
       if (parentPath) {
         const parentNode = nodeMap.get(parentPath);
         if (parentNode) {
@@ -255,7 +329,7 @@ function buildNavTree(readmes, repoName) {
           parentNode.children.sort((a, b) => a.title.localeCompare(b.title));
         }
       } else {
-        // No parent with README, add to root level
+        // No parent, add to root level
         tree.children.push(node);
         tree.children.sort((a, b) => a.title.localeCompare(b.title));
       }
@@ -306,6 +380,15 @@ function generate() {
     console.log(`  - ${r.relativePath}`);
   });
   
+  // Find container directories
+  const containers = findContainerDirectories(readmes);
+  if (containers.length > 0) {
+    console.log(`Found ${containers.length} container directory/directories:`);
+    containers.forEach(c => {
+      console.log(`  - ${c.relativePath} (container)`);
+    });
+  }
+  
   // Clean and create directories
   if (fs.existsSync(GENERATED_DIR)) {
     fs.rmSync(GENERATED_DIR, { recursive: true });
@@ -316,7 +399,7 @@ function generate() {
     fs.mkdirSync(DATA_DIR, { recursive: true });
   }
   
-  // Generate pages
+  // Generate pages for READMEs
   if (readmes.length === 0) {
     // No READMEs found - create minimal placeholder
     const placeholderContent = `---
@@ -370,8 +453,27 @@ No README files found in this repository.
     }
   }
   
-  // Generate navigation tree
-  const navTree = buildNavTree(readmes, config.repo_name);
+  // Generate pages for container directories
+  for (const container of containers) {
+    const pageContent = generateContainerPage(container.relativePath, config);
+    
+    // Create in _generated for organization
+    const dirPath = path.join(GENERATED_DIR, container.relativePath);
+    fs.mkdirSync(dirPath, { recursive: true });
+    const generatedPath = path.join(dirPath, 'index.md');
+    fs.writeFileSync(generatedPath, pageContent, 'utf-8');
+    console.log(`Generated container page: ${generatedPath}`);
+    
+    // Also create in root so Jekyll serves it at the correct URL
+    const rootDirPath = path.join(REPO_ROOT, container.relativePath);
+    fs.mkdirSync(rootDirPath, { recursive: true });
+    const rootPath = path.join(rootDirPath, 'index.md');
+    fs.writeFileSync(rootPath, pageContent, 'utf-8');
+    console.log(`Generated container page: ${rootPath}`);
+  }
+  
+  // Generate navigation tree (includes both READMEs and containers)
+  const navTree = buildNavTree(readmes, containers, config.repo_name);
   // Ensure nav.json always has valid structure even if empty
   if (!navTree.root && navTree.children.length === 0) {
     navTree.root = {

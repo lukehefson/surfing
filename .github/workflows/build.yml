@@ -1,5 +1,9 @@
 name: Build and Deploy
 
+# Note: This workflow is included as an example for users of the theme.
+# The deploy job is disabled for this theme repository (it doesn't need to be published).
+# When copying this workflow to your own repo, uncomment the deploy job and Pages steps.
+
 on:
   push:
     branches:
@@ -9,12 +13,8 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  # pages: write  # Disabled - theme repo doesn't need to deploy
+  # id-token: write  # Disabled - theme repo doesn't need to deploy
 
 jobs:
   build:
@@ -55,21 +55,26 @@ jobs:
       - name: Build Jekyll site
         run: bundle exec jekyll build
       
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-      
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./_site
+      # Pages deployment steps removed - theme repo doesn't need to be published
+      # Uncomment these when using in your own repo:
+      # - name: Setup Pages
+      #   uses: actions/configure-pages@v4
+      # 
+      # - name: Upload artifact
+      #   uses: actions/upload-pages-artifact@v3
+      #   with:
+      #     path: ./_site
   
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+  # Deploy job removed - theme repo doesn't need to be published
+  # Uncomment this when using in your own repo:
+  # deploy:
+  #   environment:
+  #     name: github-pages
+  #     url: ${{ steps.deployment.outputs.page_url }}
+  #   runs-on: ubuntu-latest
+  #   needs: build
+  #   steps:
+  #     - name: Deploy to GitHub Pages
+  #       id: deployment
+  #       uses: actions/deploy-pages@v4
+

@@ -60,8 +60,9 @@
     }
     
     // Load saved state from localStorage
+    // Default to collapsed (true) if no saved state exists
     const savedState = localStorage.getItem(STORAGE_KEY);
-    const isCollapsed = savedState === 'true';
+    const isCollapsed = savedState === null ? true : savedState === 'true';
     
     if (isCollapsed) {
       container.classList.add(COLLAPSED_CLASS);
