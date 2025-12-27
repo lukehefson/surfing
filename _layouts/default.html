@@ -16,6 +16,9 @@
           <span class="icon-collapse" style="display: none;">{% octicon sidebar-collapse height:16 %}</span>
         </button>
         <h2>Navigation</h2>
+        <button class="sidebar-close-mobile" id="sidebar-close-mobile" aria-label="Close navigation">
+          {% octicon x height:16 %}
+        </button>
       </div>
       <nav class="sidebar-nav">
         {% include sidebar.html %}
@@ -24,9 +27,12 @@
     
     <main class="main-content">
       <header class="content-header">
-        <button class="sidebar-toggle-mobile" id="sidebar-toggle-mobile" aria-label="Toggle navigation">
-          <span class="icon-collapse">{% octicon sidebar-collapse height:16 %}</span>
-          <span class="icon-expand" style="display: none;">{% octicon sidebar-expand height:16 %}</span>
+        <button class="nav-button-mobile" id="nav-button-mobile" aria-label="Open navigation">
+          <span class="nav-arrow">←</span>
+          <span class="nav-text">Navigation</span>
+        </button>
+        <button class="sidebar-toggle-desktop" id="sidebar-toggle-desktop" aria-label="Toggle navigation">
+          <span class="icon-expand">{% octicon sidebar-expand height:16 %}</span>
         </button>
         <div class="breadcrumb-container">
           {% include breadcrumb.html %}

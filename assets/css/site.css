@@ -71,6 +71,33 @@ body {
   flex: 1;
 }
 
+.sidebar-close-mobile {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  color: #5b636d;
+  border-radius: 6px;
+  transition: background-color 0.2s, color 0.2s;
+  flex-shrink: 0;
+}
+
+.sidebar-close-mobile svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.sidebar-close-mobile:hover {
+  background-color: #f6f8fa;
+  color: #5b636d;
+}
+
 .sidebar-toggle {
   background: #e7ebef;
   border: none;
@@ -247,9 +274,39 @@ body {
   gap: var(--spacing-unit);
 }
 
-.sidebar-toggle-mobile {
+.nav-button-mobile {
   display: none;
   background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px 12px;
+  align-items: center;
+  gap: 6px;
+  color: #5b636d;
+  border-radius: 6px;
+  transition: background-color 0.2s, color 0.2s;
+  flex-shrink: 0;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+.nav-button-mobile:hover {
+  background-color: #f6f8fa;
+}
+
+.nav-button-mobile .nav-arrow {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.nav-button-mobile .nav-text {
+  font-size: 14px;
+}
+
+.sidebar-toggle-desktop {
+  display: none;
+  background: #e7ebef;
   border: none;
   cursor: pointer;
   padding: 0;
@@ -265,19 +322,19 @@ body {
   top: 2px;
 }
 
-.sidebar-toggle-mobile svg {
+.sidebar-toggle-desktop svg {
   width: 16px;
   height: 16px;
   fill: currentColor;
 }
 
-.sidebar-toggle-mobile:hover {
+.sidebar-toggle-desktop:hover {
   background-color: #f6f8fa;
   color: #5b636d;
 }
 
-.site-container.sidebar-collapsed .sidebar-toggle-mobile {
-  display: flex !important;
+.site-container.sidebar-collapsed .sidebar-toggle-desktop {
+  display: flex;
 }
 
 .breadcrumb-container {
@@ -378,13 +435,42 @@ body {
 @media (max-width: 768px) {
   .site-container {
     grid-template-columns: 1fr;
+    position: relative;
+  }
+  
+  .nav-button-mobile {
+    display: flex;
   }
   
   .sidebar {
-    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
   }
   
-  .sidebar-toggle-mobile {
+  .site-container.sidebar-open-mobile .sidebar {
+    transform: translateX(0);
+  }
+  
+  .site-container.sidebar-open-mobile .main-content {
+    pointer-events: none;
+  }
+  
+  .sidebar-header {
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .sidebar-close-mobile {
+    display: flex;
+  }
+  
+  .sidebar-toggle {
     display: none;
   }
   

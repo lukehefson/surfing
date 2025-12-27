@@ -19,17 +19,6 @@
         collapseIcon.style.display = isCollapsed ? 'inline' : 'none';
       }
     }
-    
-    // Update mobile toggle icon (in main header)
-    const toggleMobile = document.getElementById('sidebar-toggle-mobile');
-    if (toggleMobile) {
-      const collapseIcon = toggleMobile.querySelector('.icon-collapse');
-      const expandIcon = toggleMobile.querySelector('.icon-expand');
-      if (collapseIcon && expandIcon) {
-        collapseIcon.style.display = isCollapsed ? 'inline' : 'none';
-        expandIcon.style.display = isCollapsed ? 'none' : 'inline';
-      }
-    }
   }
   
   function toggleSidebar() {
@@ -52,32 +41,76 @@
   
   function initSidebar() {
     const toggle = document.getElementById(SIDEBAR_TOGGLE_ID);
-    const toggleMobile = document.getElementById('sidebar-toggle-mobile');
+    const toggleDesktop = document.getElementById('sidebar-toggle-desktop');
+    const navButtonMobile = document.getElementById('nav-button-mobile');
     const container = document.querySelector('.' + SITE_CONTAINER_CLASS);
     
     if (!container) {
       return;
     }
     
-    // Load saved state from localStorage
-    // Default to collapsed (true) if no saved state exists
-    const savedState = localStorage.getItem(STORAGE_KEY);
-    const isCollapsed = savedState === null ? true : savedState === 'true';
+    // Check if we're on mobile
+    const isMobile = window.innerWidth <= 768;
     
-    if (isCollapsed) {
-      container.classList.add(COLLAPSED_CLASS);
+    if (isMobile) {
+      // On mobile, handle full-screen navigation
+      const closeButton = document.getElementById('sidebar-close-mobile');
+      
+      function closeMobileSidebar() {
+        container.classList.remove('sidebar-open-mobile');
+      }
+      
+      if (navButtonMobile) {
+        navButtonMobile.addEventListener('click', function() {
+          container.classList.add('sidebar-open-mobile');
+        });
+      }
+      
+      if (closeButton) {
+        closeButton.addEventListener('click', closeMobileSidebar);
+      }
+      
+      // Close sidebar when clicking on a link
+      const sidebar = document.getElementById('sidebar');
+      if (sidebar) {
+        sidebar.addEventListener('click', function(e) {
+          // If clicking on a link, close the sidebar after a short delay
+          if (e.target.closest('a')) {
+            setTimeout(closeMobileSidebar, 300);
+          }
+        });
+      }
+    } else {
+      // Desktop behavior
+      // Load saved state from localStorage
+      // Default to collapsed (true) if no saved state exists
+      const savedState = localStorage.getItem(STORAGE_KEY);
+      const isCollapsed = savedState === null ? true : savedState === 'true';
+      
+      if (isCollapsed) {
+        container.classList.add(COLLAPSED_CLASS);
+      }
+      
+      updateIcons(isCollapsed);
+      
+      // Toggle sidebar on button click (both in sidebar and content header)
+      if (toggle) {
+        toggle.addEventListener('click', toggleSidebar);
+      }
+      
+      if (toggleDesktop) {
+        toggleDesktop.addEventListener('click', toggleSidebar);
+      }
     }
     
-    updateIcons(isCollapsed);
-    
-    // Toggle sidebar on button click
-    if (toggle) {
-      toggle.addEventListener('click', toggleSidebar);
-    }
-    
-    if (toggleMobile) {
-      toggleMobile.addEventListener('click', toggleSidebar);
-    }
+    // Handle window resize
+    window.addEventListener('resize', function() {
+      const isMobileNow = window.innerWidth <= 768;
+      if (isMobileNow !== isMobile) {
+        // Reload page behavior changes on resize
+        location.reload();
+      }
+    });
   }
   
   // Initialize when DOM is ready
