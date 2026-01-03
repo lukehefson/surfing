@@ -484,3 +484,192 @@ body {
     height: auto;
   }
 }
+
+/* Dark mode support for mobile */
+@media (max-width: 768px) and (prefers-color-scheme: dark) {
+  .content-header {
+    background-color: #161b22;
+    border-bottom-color: #30363d;
+  }
+  
+  .sidebar {
+    background-color: #161b22;
+    border-right-color: #30363d;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .sidebar-header {
+    border-bottom-color: #373e47;
+  }
+  
+  .sidebar-header h2 {
+    color: #adbac7;
+  }
+  
+  .nav-button-mobile {
+    color: #adbac7;
+  }
+  
+  .nav-button-mobile:hover {
+    background-color: #21262d;
+    color: #adbac7;
+  }
+  
+  .sidebar-close-mobile {
+    color: #adbac7;
+  }
+  
+  .sidebar-close-mobile:hover {
+    background-color: #21262d;
+    color: #adbac7;
+  }
+  
+  .nav-item > a {
+    color: #adbac7;
+  }
+  
+  .nav-item > a:hover {
+    background-color: #21262d;
+  }
+  
+  .nav-item.active > a {
+    background-color: #21262d;
+  }
+  
+  .breadcrumb a {
+    color: #539bf5;
+  }
+  
+  .breadcrumb-current {
+    color: #adbac7;
+  }
+  
+  .breadcrumb-separator {
+    color: #768390;
+  }
+  
+  .edit-button {
+    color: #adbac7;
+  }
+  
+  .edit-button:hover {
+    background-color: #373e47;
+    color: #adbac7;
+  }
+}
+
+/* Dark mode support for desktop */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #0d1117;
+    --text-color: #c9d1d9;
+    --border-color: #30363d;
+    --hover-bg: #21262d;
+  }
+  
+  body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+  }
+  
+  .content-header {
+    background-color: #161b22;
+    border-bottom-color: #30363d;
+  }
+  
+  .sidebar {
+    background-color: #161b22;
+    border-right-color: #30363d;
+  }
+  
+  .sidebar-header {
+    border-bottom-color: #373e47;
+  }
+  
+  .sidebar-header h2 {
+    color: #adbac7;
+  }
+  
+  .sidebar-toggle {
+    background: #21262d;
+    color: #adbac7;
+  }
+  
+  .sidebar-toggle:hover {
+    background-color: #30363d;
+    color: #adbac7;
+  }
+  
+  .sidebar-toggle-desktop {
+    background: #21262d;
+    color: #adbac7;
+  }
+  
+  .sidebar-toggle-desktop:hover {
+    background-color: #30363d;
+    color: #adbac7;
+  }
+  
+  .sidebar-close-mobile {
+    color: #adbac7;
+  }
+  
+  .sidebar-close-mobile:hover {
+    background-color: #21262d;
+    color: #adbac7;
+  }
+  
+  .nav-item > a {
+    color: #adbac7;
+  }
+  
+  .nav-item > a:hover {
+    background-color: #21262d;
+  }
+  
+  .nav-item.active > a {
+    background-color: #21262d;
+  }
+  
+  .nav-chevron {
+    color: #768390;
+  }
+  
+  .nav-icon {
+    color: #6bacf9;
+  }
+  
+  .nav-icon svg {
+    fill: #6bacf9;
+  }
+  
+  .breadcrumb a {
+    color: #539bf5;
+  }
+  
+  .breadcrumb-current {
+    color: #adbac7;
+  }
+  
+  .breadcrumb-separator {
+    color: #768390;
+  }
+  
+  .edit-button {
+    color: #adbac7;
+  }
+  
+  .edit-button:hover {
+    background-color: #21262d;
+    color: #adbac7;
+  }
+  
+  .nav-button-mobile {
+    color: #adbac7;
+  }
+  
+  .nav-button-mobile:hover {
+    background-color: #21262d;
+    color: #adbac7;
+  }
+}
