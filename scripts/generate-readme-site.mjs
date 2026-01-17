@@ -199,7 +199,7 @@ function generateContainerPage(containerPath, config) {
     is_container: true
   };
   
-  const placeholderContent = `This directory is a container for other pages and has no content of its own.`;
+  const placeholderContent = `This subdirectory does not have README-generated content of its own.`;
   
   // Generate YAML front matter
   const yaml = `---\n` +
