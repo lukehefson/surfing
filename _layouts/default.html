@@ -37,8 +37,9 @@
         <div class="breadcrumb-container">
           {% include breadcrumb.html %}
         </div>
-        <div class="edit-button-container">
+        <div class="header-actions">
           {% include edit_button.html %}
+          {% include outline_button.html %}
         </div>
       </header>
       
@@ -46,6 +47,46 @@
         {{ content }}
       </article>
     </main>
+    
+    <!-- Outline Panel (Desktop) -->
+    <aside class="outline-panel" id="outline-panel" aria-labelledby="outline-heading">
+      <div class="outline-header">
+        <h2 id="outline-heading">Outline</h2>
+        <button class="outline-close" id="outline-close" aria-label="Close outline">
+          {% octicon x height:16 %}
+        </button>
+      </div>
+      <div class="outline-filter">
+        <div class="outline-filter-wrapper">
+          <span class="outline-filter-icon">{% octicon filter height:16 %}</span>
+          <input type="text" class="outline-filter-input" id="outline-filter" placeholder="Filter headings" aria-label="Filter headings">
+        </div>
+      </div>
+      <nav class="outline-nav" id="outline-nav" aria-label="Page outline">
+        <!-- Populated by JavaScript -->
+      </nav>
+    </aside>
+  </div>
+  
+  <!-- Outline Modal (Mobile) -->
+  <div class="outline-modal-overlay" id="outline-modal-overlay">
+    <div class="outline-modal" role="dialog" aria-labelledby="outline-modal-heading" aria-modal="true">
+      <div class="outline-modal-header">
+        <h2 id="outline-modal-heading">Outline</h2>
+        <button class="outline-modal-close" id="outline-modal-close" aria-label="Close outline">
+          {% octicon x height:16 %}
+        </button>
+      </div>
+      <div class="outline-modal-filter">
+        <div class="outline-filter-wrapper">
+          <span class="outline-filter-icon">{% octicon filter height:16 %}</span>
+          <input type="text" class="outline-filter-input" id="outline-modal-filter-input" placeholder="Filter headings" aria-label="Filter headings">
+        </div>
+      </div>
+      <nav class="outline-modal-nav" id="outline-modal-nav" aria-label="Page outline">
+        <!-- Populated by JavaScript -->
+      </nav>
+    </div>
   </div>
   
   <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
