@@ -146,6 +146,16 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 - I observed it on a morning when Batts was chest-to-shoulder high on sets, 12secs, straight north swell (and busy!) and Jordans didn't even seem to be breaking!
 - I heard reports of it working on a day when there was more westerly direction in the north swell at an angle of 350° (10° west of true-north!) and ~5ft, 13secs on Surfline.
 
+### Mullins
+
+- [Google map](https://github.com/user-attachments/assets/600da4c3-be0f-4c85-adfc-8090ff6ca998)
+- Park at the Westmoreland office
+- A-frame
+  - Doesn't run for very long — a few turns and done
+  - You have to take off straight, pick a side and bottom turn
+  - Probably not great on a longboard as you'd be too far down the shoulder
+- All tides, but when it's low tide it is more inclined to barrel/is pitchier
+
 ## East Coast
 
 ### Soup Bowl
