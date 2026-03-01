@@ -3,12 +3,12 @@
 # GitHub Pages base URL (repo name for project pages with custom domain)
 # For project pages: baseurl: "/your-repo-name"
 # For custom domain at root: baseurl: ""
-baseurl: "/github-readme-theme"
+baseurl: "/surfing"
 url: "https://lukehefson.com"
 
 # Repository information for edit links
 repo_owner: "lukehefson"
-repo_name: "github-readme-theme"
+repo_name: "surfing"
 repo_branch: "main"
 
 # Jekyll settings
