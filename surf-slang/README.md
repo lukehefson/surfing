@@ -2,7 +2,7 @@
 
 A guide to language that surfers use. This is as much for my own memory as it is for anyone else.
 
-Think something is wrong? [Open a pull request](). 
+Think something is wrong? [Open a pull request](https://github.com/lukehefson/surfing/edit/main/surf-slang%2FREADME.md). 
 
 ## A
 
