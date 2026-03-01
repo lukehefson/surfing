@@ -143,7 +143,9 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
   - Probably not great on a longboard as you'd be too far down the shoulder
 - All tides, but when it's low tide it is more inclined to barrel/is pitchier
 
-### Paradise Beach [Observation only]
+<!-- Observation only
+
+### Paradise Beach
 
 - Park at Batts Rock and left down the beach (past La Cabane and beyond) to get to it
 - When Batts is too big apparently Paradise Beach can work
@@ -151,10 +153,16 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 - There are definitely some very shallow sections or rock/reef there – so not sure how hazardous those are
 - Don't yet know how to enter/exit or how it breaks
 
+-->
+
+<!-- Observation only
+
 ### Jordans [Observation only]
 
 - I observed it on a morning when Batts was chest-to-shoulder high on sets, 12secs, straight north swell (and busy!) and Jordans didn't even seem to be breaking!
 - I heard reports of it working on a day when there was more westerly direction in the north swell at an angle of 350° (10° west of true-north!) and ~5ft, 13secs on Surfline.
+
+-->
 
 ## East Coast
 
