@@ -48,6 +48,14 @@ body {
   grid-template-columns: var(--sidebar-collapsed-width) 1fr var(--outline-width);
 }
 
+.site-container.single-root-readme {
+  grid-template-columns: 1fr var(--outline-collapsed-width);
+}
+
+.site-container.single-root-readme.outline-open {
+  grid-template-columns: 1fr var(--outline-width);
+}
+
 /* Sidebar Styles */
 .sidebar {
   border-right: 1px solid var(--border-color);
@@ -572,6 +580,11 @@ body {
   .site-container {
     grid-template-columns: 1fr;
     position: relative;
+  }
+
+  .site-container.single-root-readme,
+  .site-container.single-root-readme.outline-open {
+    grid-template-columns: 1fr;
   }
   
   .nav-button-mobile {

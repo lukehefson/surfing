@@ -7,6 +7,12 @@
   const SIDEBAR_TOGGLE_ID = 'sidebar-toggle';
   const SITE_CONTAINER_CLASS = 'site-container';
   const COLLAPSED_CLASS = 'sidebar-collapsed';
+  const SINGLE_ROOT_README_CLASS = 'single-root-readme';
+
+  function isSingleRootReadmePage() {
+    const container = document.querySelector('.' + SITE_CONTAINER_CLASS);
+    return container && container.classList.contains(SINGLE_ROOT_README_CLASS);
+  }
   
   function updateIcons(isCollapsed) {
     // Update sidebar toggle icon (in sidebar header)
@@ -46,6 +52,10 @@
     const container = document.querySelector('.' + SITE_CONTAINER_CLASS);
     
     if (!container) {
+      return;
+    }
+
+    if (container.classList.contains(SINGLE_ROOT_README_CLASS)) {
       return;
     }
     
@@ -199,6 +209,10 @@
   }
   
   function initNavItems() {
+    if (isSingleRootReadmePage()) {
+      return;
+    }
+
     // Start with all items collapsed
     const allItems = document.querySelectorAll('.nav-item');
     allItems.forEach(item => {

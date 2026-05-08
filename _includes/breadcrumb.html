@@ -1,4 +1,22 @@
-{% if page.breadcrumb %}
+{% assign nav_children_count = site.data.nav.children | size %}
+{% assign single_root_readme = false %}
+{% if page.readme_path == "README.md" and nav_children_count == 0 %}
+  {% assign single_root_readme = true %}
+{% endif %}
+
+{% if single_root_readme %}
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <ol>
+      <li>
+        <a href="{{ page.page_url | default: '/' | relative_url }}">{{ site.repo_name }}</a>
+        <span class="breadcrumb-separator">/</span>
+      </li>
+      <li>
+        <span class="breadcrumb-current">README.md</span>
+      </li>
+    </ol>
+  </nav>
+{% elsif page.breadcrumb %}
   <nav class="breadcrumb" aria-label="Breadcrumb">
     <ol>
       {% for crumb in page.breadcrumb %}
@@ -14,4 +32,3 @@
     </ol>
   </nav>
 {% endif %}
-

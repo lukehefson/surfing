@@ -8,32 +8,42 @@
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
 </head>
 <body>
-  <div class="site-container">
-    <aside class="sidebar" id="sidebar">
-      <div class="sidebar-header">
-        <button class="sidebar-toggle" id="sidebar-toggle" aria-label="Toggle navigation">
-          <span class="icon-expand">{% octicon sidebar-expand height:16 %}</span>
-          <span class="icon-collapse" style="display: none;">{% octicon sidebar-collapse height:16 %}</span>
-        </button>
-        <h2>Navigation</h2>
-        <button class="sidebar-close-mobile" id="sidebar-close-mobile" aria-label="Close navigation">
-          {% octicon x height:16 %}
-        </button>
-      </div>
-      <nav class="sidebar-nav">
-        {% include sidebar.html %}
-      </nav>
-    </aside>
+  {% assign nav_children_count = site.data.nav.children | size %}
+  {% assign single_root_readme = false %}
+  {% if page.readme_path == "README.md" and nav_children_count == 0 %}
+    {% assign single_root_readme = true %}
+  {% endif %}
+
+  <div class="site-container{% if single_root_readme %} single-root-readme{% endif %}">
+    {% unless single_root_readme %}
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+          <button class="sidebar-toggle" id="sidebar-toggle" aria-label="Toggle navigation">
+            <span class="icon-expand">{% octicon sidebar-expand height:16 %}</span>
+            <span class="icon-collapse" style="display: none;">{% octicon sidebar-collapse height:16 %}</span>
+          </button>
+          <h2>Navigation</h2>
+          <button class="sidebar-close-mobile" id="sidebar-close-mobile" aria-label="Close navigation">
+            {% octicon x height:16 %}
+          </button>
+        </div>
+        <nav class="sidebar-nav">
+          {% include sidebar.html %}
+        </nav>
+      </aside>
+    {% endunless %}
     
     <main class="main-content">
       <header class="content-header">
-        <button class="nav-button-mobile" id="nav-button-mobile" aria-label="Open navigation">
-          <span class="nav-arrow">←</span>
-          <span class="nav-text">Navigation</span>
-        </button>
-        <button class="sidebar-toggle-desktop" id="sidebar-toggle-desktop" aria-label="Toggle navigation">
-          <span class="icon-expand">{% octicon sidebar-expand height:16 %}</span>
-        </button>
+        {% unless single_root_readme %}
+          <button class="nav-button-mobile" id="nav-button-mobile" aria-label="Open navigation">
+            <span class="nav-arrow">←</span>
+            <span class="nav-text">Navigation</span>
+          </button>
+          <button class="sidebar-toggle-desktop" id="sidebar-toggle-desktop" aria-label="Toggle navigation">
+            <span class="icon-expand">{% octicon sidebar-expand height:16 %}</span>
+          </button>
+        {% endunless %}
         <div class="breadcrumb-container">
           {% include breadcrumb.html %}
         </div>
@@ -92,4 +102,3 @@
   <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
 </body>
 </html>
-
