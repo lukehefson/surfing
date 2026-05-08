@@ -46,8 +46,17 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
 - Can have a unfriendly-to-non-locals vibe compared to other south coast spots
 - Reef break
 - Mostly left, although there is often a right you can catch if you sit on the eastern side of the main peak
-- Entry/Exit: Further down the beach towards the Hilton and then a (long-ish) paddle wide up and around to the peak
+- Entry/Exit: Further down the beach towards the Hilton and then a (long-ish) paddle wide up and around to the peak. Exit stright forward onto the beach only at high tide as it gets very shallow with more urchins right there
  
+### Carib (aka Worthing Beach)
+- Lefthander
+- Reef break
+- I have only ever surfed it at high tide and the wave was very similar to Drill Hall (but an even longer ride/more consistent wall)
+- [Map](https://private-user-images.githubusercontent.com/1469659/589607364-35c4c7c5-0da3-4fd9-bbb9-227286d5f0cf.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzgyNTA1OTksIm5iZiI6MTc3ODI1MDI5OSwicGF0aCI6Ii8xNDY5NjU5LzU4OTYwNzM2NC0zNWM0YzdjNS0wZGEzLTRmZDktYmJiOS0yMjcyODZkNWYwY2YucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MDhUMTQyNDU5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YWMxNDIyYTRlZjk5N2Q0NDU4NmU4MDhhMDcyMmY5OGFhNzVjNDJmYTA1ZDQ3ZmFjNzRlNWFjZTkxZjhmNWQ1MiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0._gHPIU0sXvzSoxpWtUH73st24s7XwfO9yViriMamm8c)
+- The outer edge of the reef on Worthing Beach breaks closer to the shore near Sandy/Koala Beach (that break is called 'Sandy Beach'), but to surf Carib, you're paddling all the way out to where waves break directly in front of Carib Beach Bar. It is a long paddle
+- Because the reef is so shallow, for so far out all along Worthing Beach, there are a lot of waves forming on the inside — these are not the break. You need to sit way outside (directly opposite Carib Beach Bar) and wait for the sets to come in in order to get a lined-up wave
+- Hazard: There are big breeze-blocks in the water connected by a pipe — that extend from the shore right out to the break. At lower tides I imagine that you could hit one if you're not careful
+
 ### Accra (aka Sunset)
 
 - Righthander
