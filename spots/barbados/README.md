@@ -39,7 +39,7 @@ Just _don't_ put your feet down if you don't have to. Even sandier-bottomed spot
   1. The tiny beach exit in front of the second coconut palm, **BUT** you should _aim_ for the second house along when paddling/riding in and let the inside current pull you towards the tiny beach until it's too shallow to paddle
   2. The bigger stretch of beach generally seems to be a trickier exit as the white water can be wilder here
 
-### Brandons (aka Brandens, aka Drill Hall Beach)
+### Drill Hall Beach (aka Brandens, aka Brandons)
 - [Google map](https://goo.gl/maps/SmbYjJoJa9hX4wyU7)
 - Depending on the swell size/direction can work on all tides. Although going right on a low tide will take you very shallow
 - Is usually bigger than other south coast spots on the same easterly/south easterly swell
